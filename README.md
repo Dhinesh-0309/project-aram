@@ -1,4 +1,4 @@
-# Flask Application with CI/CD on AWS ECS 🚀
+# Flask Application with CI/CD and Terraform on AWS ECS 🚀
 
 This repository contains a Flask application deployed on AWS ECS (Elastic Container Service) using Fargate. The application is built with Docker and deployed using a CI/CD pipeline that leverages Jenkins (or GitHub Actions). This README provides steps to set up, deploy, and access the application.
 
