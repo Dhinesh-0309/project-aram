@@ -34,14 +34,16 @@ Follow the steps below to set up the application:
     <pre><code>terraform apply</code></pre>
     <p>This will create the VPC, subnets, ECS cluster, security group, and other necessary resources.</p>
   </li>
-  
-  <li><strong>Set up CI/CD Pipeline (Jenkins or GitHub Actions):</strong>
+
+
+  <img src="images/aram simple architecture.png" alt="CLOUD ARCHITECTURE" width="600"/>
+
+  <li><strong>Set up CI/CD Pipeline (Jenkins):</strong>
     <ul>
       <li><strong>Jenkins:</strong> Set up a Jenkins pipeline to automate the build and deployment. ⚙️</li>
     </ul>
   </li>
 
-  <img src="images/aram simple architecture.png" alt="CLOUD ARCHITECTURE" width="600"/>
 
   <li><strong>Deploy the Application:</strong>
     <p>Once the pipeline runs, it will deploy the Flask application to AWS ECS using the Fargate launch type. 🚢</p>
